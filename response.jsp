@@ -4,6 +4,9 @@
     <title>Response Page</title>
 </head>
 <body>
-<h2>You clicked the button!</h2>
+<%
+    String name = request.getParameter("name");
+%>
+<h2>Hello, <%= name %>! You clicked the button!</h2>
 </body>
 </html>
