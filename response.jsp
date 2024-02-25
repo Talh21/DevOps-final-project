@@ -6,7 +6,7 @@
 <body>
 <%
     String name = request.getParameter("name");
-    boolean isValidInput = name.matches("^[a-zA-Z]*$");
+    boolean isValidInput = name != null && name.matches("^[a-zA-Z]*$");
 
     if (!isValidInput) {
 %>
@@ -18,5 +18,7 @@
 <%
     }
 %>
+    <!-- Back Link -->
+    <a href="http://localhost:8081/Tal-Hasson/">Back to Home</a>
 </body>
 </html>
