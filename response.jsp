@@ -10,7 +10,7 @@
 
     if (!isValidInput) {
 %>
-        <h2>You cannot use non-alphabetic characters.</h2>
+        <h2>You cannot use non-alphabetic character.</h2>
 <%
     } else {
 %>
@@ -18,7 +18,7 @@
 <%
     }
 %>
-    <!-- Back Link -->
-    <a href="http://localhost:8081/Tal-Hasson/">Back to Home</a>
+    <!-- JavaScript "Back" Button -->
+    <button onclick="history.back()">Go Back</button>
 </body>
 </html>
