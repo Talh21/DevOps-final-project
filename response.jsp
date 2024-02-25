@@ -6,11 +6,11 @@
 <body>
 <%
     String name = request.getParameter("name");
-    boolean isValidInput = name != null && name.matches("^[a-zA-Z]*$");
+    boolean isValidInput = name.matches("^[a-zA-Z]*$");
 
     if (!isValidInput) {
 %>
-        <h2>You cannot use non-alphabetic characters or an empty string.</h2>
+        <h2>You cannot use non-alphabetic characters.</h2>
 <%
     } else {
 %>
