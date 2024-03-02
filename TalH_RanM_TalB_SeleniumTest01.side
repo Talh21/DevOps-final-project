@@ -1,0 +1,224 @@
+{
+  "id": "cd2523c9-b63b-4b67-881d-0a1bc94eda12",
+  "version": "2.0",
+  "name": "projectSelenium01",
+  "url": "http://localhost:8081/Tal-Hasson/",
+  "tests": [{
+    "id": "68768f41-0c59-4489-a9c4-0826c63d1ce4",
+    "name": "test01",
+    "commands": [{
+      "id": "c79764f7-017a-477d-a635-b5e6b99fc375",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8081/Tal-Hasson/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16774f44-8b04-409f-a4ef-f661b0da495b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a07bb4b9-0d2d-4d3b-8781-05cf3618eab4",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Welcome to the Simple JSP Web App')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41f661a4-8360-42b1-88a4-1ee51becf131",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Welcome to the Simple JSP Web App')]", "xpath:innerText"]
+      ],
+      "value": "Welcome to the Simple JSP Web App"
+    }, {
+      "id": "60129778-0c2c-4e4a-bcea-17e58c13fe44",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67f9e1ea-d531-45f3-ba75-f181b0cc2440",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Click Me!']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6142437f-41ac-4f38-9621-a91b399623c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd28dd3f-5545-40a2-b049-b6d9c6f98fe6",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "4f6d93c0-7438-4643-93cd-073b701bf510",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Click Me!']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af3c47b2-a6a2-4fd6-802c-bf9119085dd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'You cannot use non-alphabetic characters or an empty string.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fd0c92b-00f5-40db-b301-4cc98dac3f76",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'You cannot use non-alphabetic characters or an empty string.')]", "xpath:innerText"]
+      ],
+      "value": "You cannot use non-alphabetic characters or an empty string."
+    }, {
+      "id": "9732d630-22d1-49cc-b831-1243416b2e30",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Back to Home",
+      "targets": [
+        ["linkText=Back to Home", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.jsp')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bce84f14-8441-437b-b719-9aa18f856fb3",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3f5a293-554c-4c71-891f-566aacc2a798",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "f7a2b0d1-7725-46bd-8e0d-93058ad8ea78",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Click Me!']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e86037-dfb8-4425-bad3-13e982b3d49b",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, test! You clicked the button!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fe37d4a-077c-4e4a-ba0c-4a7a2373bfca",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, test! You clicked the button!')]", "xpath:innerText"]
+      ],
+      "value": "Hello, test! You clicked the button!"
+    }, {
+      "id": "140870a3-6458-4265-a145-fdbe3b3165e3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Back to Home",
+      "targets": [
+        ["linkText=Back to Home", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.jsp')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "13349978-77fe-4b5e-94fc-e5831f7ef0a9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8081/", "http://localhost:8081/Tal-Hasson/", "http://localhost:8081/RanMizrahiDevOps/"],
+  "plugins": []
+}
