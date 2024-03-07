@@ -4,7 +4,7 @@
     <title>Simple JSP App</title>
 </head>
 <body>
-<h2>Welcome to the Simple JSP Web App</h2>
+<h2>Welcome to the Simple JSP Web App!</h2>
 <form action="response.jsp" method="post">
     <label for="name">Enter your name:</label>
     <input type="text" id="name" name="name" required="required"/>
